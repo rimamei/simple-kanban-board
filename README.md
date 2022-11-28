@@ -14,6 +14,9 @@
 
 ```bash
 git@github.com:rimamei/simple-kanban-board.git
+```
+
+```bash
 cd simple-kanban-board
 ```
 

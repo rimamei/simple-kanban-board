@@ -2,7 +2,7 @@
 
 ### Technology used
 
-- Graphql v.16
+- GraphQL v.16
 - Apollo v.3
 - Next.js v.13
 - Typescript v.4

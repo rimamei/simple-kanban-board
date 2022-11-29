@@ -84,8 +84,8 @@ const Board = () => {
     });
   };
 
-  if (loading) return <p>Loading...</p>;
-  if (error) return <p>Error</p>;
+  if (loading) return <p className='text-center mt-5'>Loading...</p>;
+  if (error) return <p className='text-center mt-5 text-warning'>Error</p>;
 
   return (
     <div className="my-5 rounded-lg h-screen overflow-hidden bg-gray-100">

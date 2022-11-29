@@ -1,6 +1,8 @@
 # SIMPLE KANBAN BOARD
 The Kanban board is tool for workflow. It helps bringing clarity work process and enhance efficiency by limiting work in progress. It supported with drag and drop.
 
+![](https://github.com/rimamei/simple-kanban-board/blob/main/src/assets/simple-kanban-board.gif)
+
 ### Technology used
 
 - GraphQL v.16

@@ -57,7 +57,6 @@ const BoardSection: React.FC<BoardSectionProps> = ({ title, tasks }) => {
     <div className="p-4 flex flex-col">
       <div className="flex justify-between items-center mb-4">
         <h3 className="mr-4">{title}</h3>
-        <Fa.FaPlus />
       </div>
       <Droppable droppableId={title}>
         {(provided) => (

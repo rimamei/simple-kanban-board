@@ -3,9 +3,12 @@
 ### Technology used
 
 - GraphQL v.16
+- Prisma v.4
 - Apollo v.3
 - Next.js v.13
 - Typescript v.4
+- React Beautiful DND v.13
+- React Toastify v.9
 - Tailwind v.3
 - Formik v.2
 

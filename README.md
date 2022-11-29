@@ -1,4 +1,5 @@
 # SIMPLE KANBAN BOARD
+The Kanban board is tool for workflow. It helps bringing clarity work process and enhance efficiency by limiting work in progress. It supported with drag and drop.
 
 ### Technology used
 

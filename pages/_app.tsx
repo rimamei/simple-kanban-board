@@ -5,17 +5,26 @@ import apolloClient from '../lib/apollo';
 import { Layout } from '@components';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Head from 'next/head';
 
 export default function App({
   Component,
   pageProps: { session, ...pageProps },
 }: AppProps) {
   return (
-    <ApolloProvider client={apolloClient}>
-      <Layout>
-        <Component {...pageProps} />
-        <ToastContainer />
-      </Layout>
-    </ApolloProvider>
+    <>
+      <Head>
+        <meta
+          name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0,user-scalable=0"
+        />
+      </Head>
+      <ApolloProvider client={apolloClient}>
+        <Layout>
+          <Component {...pageProps} />
+          <ToastContainer />
+        </Layout>
+      </ApolloProvider>
+    </>
   );
 }
